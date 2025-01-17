@@ -28,6 +28,7 @@ describe('Validando cenario do desafio pratico', () => {
     cy.get('#CPF').parent().contains('CPF inválido').should('be.visible');
   });
 
+   // Validando cenario com cpf invalido pois o teste esta sendo realizado no ambiente de produção
   it('Loga com cpf invalido', () => {
     // Ir para tela de área do cliente (login)
     cy.contains('Área do cliente').click();

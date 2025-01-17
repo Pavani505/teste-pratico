@@ -1,3 +1,5 @@
+// Classe referente aos testes da atividadePratica, essa classe tem como função auxiliar no reaproveitamento e encapsulamento de código que será usado nos testes da atividadePratica
+
 class atividadePraticaModule {
   visitLandingPage() {
     cy.visit('https://picpay.com/');
